@@ -26,6 +26,7 @@
   <div class="field">
     <%= f.label :title %><br>
     <%= f.collection_select :title, Title.all, :id, :title_id, prompt: false %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
